@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b from-soft-white to-cream-beige;
+  font-family: 'Inter', sans-serif;
+}
