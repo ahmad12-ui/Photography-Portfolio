@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import placeholder from "/src/assets/placeholder.jpg"; // Replace with your image
-
 const HeroSection = () => {
-  // Animation variants for text and button
   const textVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
